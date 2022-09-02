@@ -18,6 +18,8 @@
 		D894680828C237B500EDFAF9 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680728C237B500EDFAF9 /* BlurView.swift */; };
 		D894680A28C237CB00EDFAF9 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680928C237CB00EDFAF9 /* MiniPlayer.swift */; };
 		D894680C28C2380600EDFAF9 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680B28C2380600EDFAF9 /* HomeTab.swift */; };
+		D894681128C239EA00EDFAF9 /* HRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894681028C239EA00EDFAF9 /* HRow.swift */; };
+		D894681328C239F500EDFAF9 /* VRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894681228C239F500EDFAF9 /* VRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		D894680728C237B500EDFAF9 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		D894680928C237CB00EDFAF9 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 		D894680B28C2380600EDFAF9 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		D894681028C239EA00EDFAF9 /* HRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRow.swift; sourceTree = "<group>"; };
+		D894681228C239F500EDFAF9 /* VRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 		D89467FD28C2366500EDFAF9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D894680D28C239C000EDFAF9 /* Radio */,
 				D894680028C2369700EDFAF9 /* MiniPlayer */,
 				D89467FF28C2368E00EDFAF9 /* Search */,
 				D89467FE28C2367E00EDFAF9 /* Library and List */,
@@ -150,6 +155,23 @@
 				D894680928C237CB00EDFAF9 /* MiniPlayer.swift */,
 			);
 			path = MiniPlayer;
+			sourceTree = "<group>";
+		};
+		D894680D28C239C000EDFAF9 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				D894680E28C239CE00EDFAF9 /* Rows */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		D894680E28C239CE00EDFAF9 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				D894681028C239EA00EDFAF9 /* HRow.swift */,
+				D894681228C239F500EDFAF9 /* VRow.swift */,
+			);
+			path = Rows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,9 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D894680228C236AB00EDFAF9 /* LibraryView.swift in Sources */,
+				D894681128C239EA00EDFAF9 /* HRow.swift in Sources */,
 				D894680828C237B500EDFAF9 /* BlurView.swift in Sources */,
 				D89467EB28C2328700EDFAF9 /* ContentView.swift in Sources */,
 				D894680428C236D000EDFAF9 /* ListView.swift in Sources */,
+				D894681328C239F500EDFAF9 /* VRow.swift in Sources */,
 				D894680628C2377400EDFAF9 /* Search.swift in Sources */,
 				D894680A28C237CB00EDFAF9 /* MiniPlayer.swift in Sources */,
 				D894680C28C2380600EDFAF9 /* HomeTab.swift in Sources */,
