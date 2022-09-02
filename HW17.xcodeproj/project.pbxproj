@@ -15,6 +15,8 @@
 		D894680228C236AB00EDFAF9 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680128C236AB00EDFAF9 /* LibraryView.swift */; };
 		D894680428C236D000EDFAF9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680328C236D000EDFAF9 /* ListView.swift */; };
 		D894680628C2377400EDFAF9 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680528C2377400EDFAF9 /* Search.swift */; };
+		D894680828C237B500EDFAF9 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680728C237B500EDFAF9 /* BlurView.swift */; };
+		D894680A28C237CB00EDFAF9 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680928C237CB00EDFAF9 /* MiniPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		D894680128C236AB00EDFAF9 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		D894680328C236D000EDFAF9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		D894680528C2377400EDFAF9 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		D894680728C237B500EDFAF9 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		D894680928C237CB00EDFAF9 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 		D894680028C2369700EDFAF9 /* MiniPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				D894680728C237B500EDFAF9 /* BlurView.swift */,
+				D894680928C237CB00EDFAF9 /* MiniPlayer.swift */,
 			);
 			path = MiniPlayer;
 			sourceTree = "<group>";
@@ -214,9 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D894680228C236AB00EDFAF9 /* LibraryView.swift in Sources */,
+				D894680828C237B500EDFAF9 /* BlurView.swift in Sources */,
 				D89467EB28C2328700EDFAF9 /* ContentView.swift in Sources */,
 				D894680428C236D000EDFAF9 /* ListView.swift in Sources */,
 				D894680628C2377400EDFAF9 /* Search.swift in Sources */,
+				D894680A28C237CB00EDFAF9 /* MiniPlayer.swift in Sources */,
 				D89467E928C2328700EDFAF9 /* HW17App.swift in Sources */,
 				D89467FB28C2364000EDFAF9 /* AlbumsImages.swift in Sources */,
 			);
