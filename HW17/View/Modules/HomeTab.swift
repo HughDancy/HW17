@@ -27,7 +27,7 @@ struct HomeTab: View {
                         Image(systemName: "music.note.house.fill")
                         Text("Слушать")
                     }
-                Text("Radio")
+                RadioScreen()
                     .tabItem {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
