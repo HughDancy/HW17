@@ -17,6 +17,7 @@
 		D894680628C2377400EDFAF9 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680528C2377400EDFAF9 /* Search.swift */; };
 		D894680828C237B500EDFAF9 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680728C237B500EDFAF9 /* BlurView.swift */; };
 		D894680A28C237CB00EDFAF9 /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680928C237CB00EDFAF9 /* MiniPlayer.swift */; };
+		D894680C28C2380600EDFAF9 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894680B28C2380600EDFAF9 /* HomeTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D894680528C2377400EDFAF9 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		D894680728C237B500EDFAF9 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		D894680928C237CB00EDFAF9 /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
+		D894680B28C2380600EDFAF9 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				D894680028C2369700EDFAF9 /* MiniPlayer */,
 				D89467FF28C2368E00EDFAF9 /* Search */,
 				D89467FE28C2367E00EDFAF9 /* Library and List */,
+				D894680B28C2380600EDFAF9 /* HomeTab.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				D894680428C236D000EDFAF9 /* ListView.swift in Sources */,
 				D894680628C2377400EDFAF9 /* Search.swift in Sources */,
 				D894680A28C237CB00EDFAF9 /* MiniPlayer.swift in Sources */,
+				D894680C28C2380600EDFAF9 /* HomeTab.swift in Sources */,
 				D89467E928C2328700EDFAF9 /* HW17App.swift in Sources */,
 				D89467FB28C2364000EDFAF9 /* AlbumsImages.swift in Sources */,
 			);
