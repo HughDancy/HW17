@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Architects_-_For_Those_That_Wish_to_Exist_(album_cover).jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
