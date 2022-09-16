@@ -25,6 +25,7 @@
 		D894681728C23A6700EDFAF9 /* RadioData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894681628C23A6700EDFAF9 /* RadioData.swift */; };
 		D894681928C23AA200EDFAF9 /* RadioV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894681828C23AA200EDFAF9 /* RadioV.swift */; };
 		D894681B28C23ABF00EDFAF9 /* RadioScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894681A28C23ABF00EDFAF9 /* RadioScreen.swift */; };
+		D8DEC4D928D3852E0025937C /* Ahig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEC4D828D3852E0025937C /* Ahig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		D894681628C23A6700EDFAF9 /* RadioData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioData.swift; sourceTree = "<group>"; };
 		D894681828C23AA200EDFAF9 /* RadioV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioV.swift; sourceTree = "<group>"; };
 		D894681A28C23ABF00EDFAF9 /* RadioScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioScreen.swift; sourceTree = "<group>"; };
+		D8DEC4D828D3852E0025937C /* Ahig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ahig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		D89467FF28C2368E00EDFAF9 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				D8DEC4D728D385110025937C /* Albums */,
 				D894680528C2377400EDFAF9 /* Search.swift */,
 			);
 			path = Search;
@@ -187,6 +190,14 @@
 				D894681228C239F500EDFAF9 /* VRow.swift */,
 			);
 			path = Rows;
+			sourceTree = "<group>";
+		};
+		D8DEC4D728D385110025937C /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				D8DEC4D828D3852E0025937C /* Ahig.swift */,
+			);
+			path = Albums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 				D89467EB28C2328700EDFAF9 /* ContentView.swift in Sources */,
 				D894681728C23A6700EDFAF9 /* RadioData.swift in Sources */,
 				D894680428C236D000EDFAF9 /* ListView.swift in Sources */,
+				D8DEC4D928D3852E0025937C /* Ahig.swift in Sources */,
 				D894681328C239F500EDFAF9 /* VRow.swift in Sources */,
 				D894681528C23A4700EDFAF9 /* RadioH.swift in Sources */,
 				D894680628C2377400EDFAF9 /* Search.swift in Sources */,

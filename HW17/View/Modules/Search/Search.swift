@@ -29,7 +29,8 @@ struct Search: View {
     var filtredSongs: [Song] {
         if search == "" { return someSongs.songs}
         return someSongs.songs.filter {
-            $0.name.lowercased().contains(search.lowercased()) || $0.artist.lowercased().contains(search.lowercased()) || $0.album.lowercased().contains(search.lowercased())
+            $0.name.lowercased().contains(search.lowercased()) || $0.artist.lowercased().contains(search.lowercased()) ||
+            $0.album.lowercased().contains(search.lowercased())
         }
     }
  
@@ -53,12 +54,15 @@ struct Search: View {
                         ForEach(filtredAlbums, id: \.self) { index in
                     
                             VStack {
-                                Image(index.image)
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fill)
-                                    .frame(width: (UIScreen.main.bounds.width - 50) / 2, height: 180)
-                                    .cornerRadius(15)
+                                NavigationLink(destination: Ahig()) {
+                                    Image(index.image)
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .frame(width: (UIScreen.main.bounds.width - 50) / 2, height: 180)
+                                        .cornerRadius(15)
+                                }
                                 
+                        
                                 Text(index.name)
                                     .foregroundColor(.black)
                                     .font(.caption)
@@ -67,7 +71,9 @@ struct Search: View {
                                 Text(index.artist)
                                     .foregroundColor(.black)
                                     .font(.caption)
+                                
                             }
+                            
                         }
                       
                         

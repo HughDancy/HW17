@@ -44,6 +44,8 @@ class Albums: ObservableObject {
     
 }
 
+ var albumIndex = Album(artist: "", name: "", image: "")
+
 struct Song: Hashable {
     var artist: String
     var album: String
