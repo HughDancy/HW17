@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D81C17CB28D222E800B756DE /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C17CA28D222E800B756DE /* Albums.swift */; };
+		D83FF53E28D7610F00AE56AC /* AllHope.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83FF53D28D7610F00AE56AC /* AllHope.swift */; };
 		D89467E928C2328700EDFAF9 /* HW17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89467E828C2328700EDFAF9 /* HW17App.swift */; };
 		D89467EB28C2328700EDFAF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89467EA28C2328700EDFAF9 /* ContentView.swift */; };
 		D89467ED28C2328800EDFAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89467EC28C2328800EDFAF9 /* Assets.xcassets */; };
@@ -26,10 +27,12 @@
 		D894681928C23AA200EDFAF9 /* RadioV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894681828C23AA200EDFAF9 /* RadioV.swift */; };
 		D894681B28C23ABF00EDFAF9 /* RadioScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894681A28C23ABF00EDFAF9 /* RadioScreen.swift */; };
 		D8DEC4D928D3852E0025937C /* Ahig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEC4D828D3852E0025937C /* Ahig.swift */; };
+		D8DEC4DB28D73AA40025937C /* Slipknot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DEC4DA28D73AA40025937C /* Slipknot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D81C17CA28D222E800B756DE /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		D83FF53D28D7610F00AE56AC /* AllHope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllHope.swift; sourceTree = "<group>"; };
 		D89467E528C2328700EDFAF9 /* HW17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89467E828C2328700EDFAF9 /* HW17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW17App.swift; sourceTree = "<group>"; };
 		D89467EA28C2328700EDFAF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		D894681828C23AA200EDFAF9 /* RadioV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioV.swift; sourceTree = "<group>"; };
 		D894681A28C23ABF00EDFAF9 /* RadioScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioScreen.swift; sourceTree = "<group>"; };
 		D8DEC4D828D3852E0025937C /* Ahig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ahig.swift; sourceTree = "<group>"; };
+		D8DEC4DA28D73AA40025937C /* Slipknot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slipknot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				D8DEC4D828D3852E0025937C /* Ahig.swift */,
+				D8DEC4DA28D73AA40025937C /* Slipknot.swift */,
+				D83FF53D28D7610F00AE56AC /* AllHope.swift */,
 			);
 			path = Albums;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 				D894681B28C23ABF00EDFAF9 /* RadioScreen.swift in Sources */,
 				D894681128C239EA00EDFAF9 /* HRow.swift in Sources */,
 				D894680828C237B500EDFAF9 /* BlurView.swift in Sources */,
+				D83FF53E28D7610F00AE56AC /* AllHope.swift in Sources */,
 				D89467EB28C2328700EDFAF9 /* ContentView.swift in Sources */,
 				D894681728C23A6700EDFAF9 /* RadioData.swift in Sources */,
 				D894680428C236D000EDFAF9 /* ListView.swift in Sources */,
@@ -283,6 +290,7 @@
 				D894680628C2377400EDFAF9 /* Search.swift in Sources */,
 				D894680A28C237CB00EDFAF9 /* MiniPlayer.swift in Sources */,
 				D81C17CB28D222E800B756DE /* Albums.swift in Sources */,
+				D8DEC4DB28D73AA40025937C /* Slipknot.swift in Sources */,
 				D894680C28C2380600EDFAF9 /* HomeTab.swift in Sources */,
 				D89467E928C2328700EDFAF9 /* HW17App.swift in Sources */,
 				D894681928C23AA200EDFAF9 /* RadioV.swift in Sources */,

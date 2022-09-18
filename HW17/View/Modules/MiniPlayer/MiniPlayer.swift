@@ -43,7 +43,9 @@ struct Miniplayer: View {
                     Text("Something In The Way")
                         .font(.callout)
                         .fontWeight(.bold)
+                        .padding(.top, 15)
                         .matchedGeometryEffect(id: "Label", in: animation)
+                    
                 }
                 
                 
@@ -56,6 +58,7 @@ struct Miniplayer: View {
                         Image(systemName: "play.fill")
                             .font(.title2)
                             .foregroundColor(.primary)
+                            .padding(.top, 15)
                         
                     })
                     
@@ -64,6 +67,7 @@ struct Miniplayer: View {
                         Image(systemName: "forward.fill")
                             .font(.title2)
                             .foregroundColor(.primary)
+                            .padding(.top, 15)
                         
                     })
                 }

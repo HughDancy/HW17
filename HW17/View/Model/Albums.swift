@@ -142,4 +142,8 @@ class Songs: ObservableObject {
     ]
 }
 
+var ahig = [".execute.", "Gematria (The Killing Name)", "Sulfur", "Psychosocial", "Dead Memories", "Vendetta", "Butcher’s Hook", "Gehenna", "This Cold Black",
+           "Wherein Lies Continue", "Snuff", "All Hope Is Gone" ]
+
+
 

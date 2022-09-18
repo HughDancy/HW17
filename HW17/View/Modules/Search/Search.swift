@@ -12,13 +12,14 @@ struct Search: View {
     
     @State private var search = ""
     
+    
     var columns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 2)
     var secondColumns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 1)
     
     @ObservedObject var someAlbums = Albums()
     @ObservedObject var someSongs = Songs()
     
-  
+    
     var filtredAlbums: [Album] {
         if search == "" { return someAlbums.albums }
         return someAlbums.albums.filter {
@@ -33,15 +34,15 @@ struct Search: View {
             $0.album.lowercased().contains(search.lowercased())
         }
     }
- 
-     
+    
+    
     
     var body: some View {
         NavigationView {
-           
+            
             ScrollView(showsIndicators: false) {
                 
-               
+                
                 
                 VStack(alignment: .leading, spacing: 18) {
                     Text("Альбомы")
@@ -49,12 +50,13 @@ struct Search: View {
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                         .padding(.leading, 10)
-                  
+                    
+                    
                     LazyVGrid(columns: columns , spacing: 20){
                         ForEach(filtredAlbums, id: \.self) { index in
-                    
+                            
                             VStack {
-                                NavigationLink(destination: Ahig()) {
+                                NavigationLink(destination: AllHope()) {
                                     Image(index.image)
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
@@ -62,7 +64,8 @@ struct Search: View {
                                         .cornerRadius(15)
                                 }
                                 
-                        
+                                
+                                
                                 Text(index.name)
                                     .foregroundColor(.black)
                                     .font(.caption)
@@ -75,15 +78,15 @@ struct Search: View {
                             }
                             
                         }
-                      
+                        
                         
                         
                     }
                     .navigationTitle("Поиск")
-                   
-                    .searchable(text: $search, prompt: "Найди свою музыку")
+                    
+                    .searchable(text: $search, placement: .navigationBarDrawer(displayMode: .always) ,prompt: "Найди свою музыку")
                     .padding(.bottom, 20)
-               
+                    
                     
                     Text("Песни")
                         .font(.title2)
@@ -116,18 +119,19 @@ struct Search: View {
                                 
                                 
                             }
-                          
+                            
                         }
                     }
                     .padding(.leading, 15)
                     .padding(.bottom, 80)
-                 
+                    
                 }
-               
+                
             }
             
         }
-       
+        
     }
 }
+
 
