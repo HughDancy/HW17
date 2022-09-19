@@ -54,8 +54,8 @@ class SearchCell: UICollectionViewCell {
     func setupLayout() {
         image.translatesAutoresizingMaskIntoConstraints = false
         image.topAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.topAnchor, constant: 1).isActive = true
-        image.leadingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.leadingAnchor, constant: 1).isActive = true
-        image.trailingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.trailingAnchor, constant: -1).isActive = true
+        image.leadingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.leadingAnchor, constant: 5).isActive = true
+        image.trailingAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.trailingAnchor, constant: -5).isActive = true
         image.bottomAnchor.constraint(equalTo: contentView.safeAreaLayoutGuide.bottomAnchor, constant: 20).isActive = true
         
 
