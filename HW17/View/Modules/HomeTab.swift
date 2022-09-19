@@ -32,7 +32,7 @@ struct HomeTab: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
-                Search()
+                SearchScreenView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Поиск")

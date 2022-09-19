@@ -147,3 +147,30 @@ var ahig = [".execute.", "Gematria (The Killing Name)", "Sulfur", "Psychosocial"
 
 
 
+let ahig1 = Album(artist: "Slipknot", name: "All Hope Is Gone", image: "ahig")
+let slipknot = Album(artist: "Slipknot", name: "Slipknot", image: "slipknot")
+let architects =  Album(artist: "Bad Omens", name: "The Death of Peace of Mind", image: "badOmens")
+let omens = Album(artist: "Architects", name: "For Those That Wish to Exist", image: "Architects")
+let deathStranding = Album(artist: "Mondo", name: "Death Stranding", image: "DeathStranding")
+let hybridTheory = Album(artist: "Linkin Park", name: "Hybrid Theory", image: "hybridTheory")
+let manson = Album(artist: "Marilyn Manson", name: "Holy Wood", image: "marilyn")
+let maybe01 = Album(artist: "Maybeshewill", name: "I Was Here for a Moment, Then I Was Gone", image: "maybe01")
+let maybe02 = Album(artist: "Maybeshewill", name: "Fair Youth", image: "maybe02")
+let nirvana01 =  Album(artist: "Nirvana", name: "Nevermind", image: "nevermind")
+let nirvana02 = Album(artist: "Nirvana", name: "In Utero", image: "Nirvana")
+let twenty01  =  Album(artist: "Twenty One Pilots", name: "Scaled And Icy", image: "scaledAndIcy")
+let twenty02 = Album(artist: "Twenty One Pilots", name: "Trench", image: "trench")
+let atl = Album(artist: "ATL", name: "Радио Апокалипсис", image: "youth")
+let bmth01 = Album(artist: "Bring Me The Horizon", name: "There Is a Hell, Believe Me I’ve Seen It. There Is a Heaven, Let’s Keep It a Secret", image: "bring01")
+let bthm02 = Album(artist: "Bring Me The Horizon", name: "Sempiternal", image: "bring02")
+let bthm03 = Album(artist: "Bring Me The Horizon", name: "Post Human: Survival Horror", image: "bring03")
+let fall01 = Album(artist: "Falling In Reverse", name: "Losing My Life", image: "fall01")
+let fall02 = Album(artist: "Falling In Reverse", name: "Popular Monster", image: "fall02")
+let fall03 = Album(artist: "Falling In Reverse", name: "Drugs", image: "fall03")
+let placebo = Album(artist: "Placebo", name: "Placebo", image: "placebo01")
+let placebo02 = Album(artist: "Placebo", name: "Never Let Me Go", image: "placebo02")
+let birdy = Album(artist: "Birdy", name: "Fire Within", image: "birdy")
+let meg =  Album(artist: "Meg Myers", name: "Take Me To The Disco", image: "meg")
+
+var someAlbums = [ahig1, slipknot, omens, architects, deathStranding, hybridTheory, manson, maybe01, maybe02, nirvana01, nirvana02, twenty01, twenty02, atl, bmth01, bthm02, bthm03, fall01, fall02, fall03, placebo, placebo02, birdy, meg]
+
