@@ -18,9 +18,9 @@ class SearchCell: UICollectionViewCell {
        let image = UIImageView()
        let picture = UIImage()
         image.image = picture
-        image.layer.cornerRadius = 20
+        image.layer.cornerRadius = 15
         image.clipsToBounds = true
-        image.contentMode = .scaleAspectFit
+        image.contentMode = .scaleAspectFill
         
         image.frame.size = CGSize(width: 50, height: 50)
         

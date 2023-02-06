@@ -16,7 +16,7 @@ class AlbumCollectionView: UICollectionView, UICollectionViewDelegate, UICollect
         layout.scrollDirection = .vertical
 
         layout.minimumLineSpacing = 45
-        layout.sectionInset = UIEdgeInsets(top: 10, left: 4, bottom: 10, right: 4)
+        layout.sectionInset = UIEdgeInsets(top: 5, left: 3, bottom: 5, right: 3)
     
         
     
@@ -46,7 +46,7 @@ class AlbumCollectionView: UICollectionView, UICollectionViewDelegate, UICollect
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 190 , height: 160)
+        return CGSize(width: 165 , height: 155)
     }
 
 }
