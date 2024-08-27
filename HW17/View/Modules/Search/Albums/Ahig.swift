@@ -80,19 +80,15 @@ struct Ahig: View {
                         Text(song)
                             .font(.caption)
                             .foregroundColor(.black)
-                        
                     }
                 }
             }
             .padding(0.0)
             .listStyle(.plain)
-            
-            
         }
         .padding(.bottom, 30)
     }
 }
-
 
 struct Ahig_Previews: PreviewProvider {
     static var previews: some View {

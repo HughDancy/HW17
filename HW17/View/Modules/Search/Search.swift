@@ -9,16 +9,13 @@ import SwiftUI
 
 struct Search: View {
     @State private var multisection = Set<UUID>()
-    
     @State private var search = ""
-    
-    
+
     var columns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 2)
     var secondColumns = Array(repeating: GridItem(.flexible(), spacing: 20), count: 1)
     
     @ObservedObject var someAlbums = Albums()
     @ObservedObject var someSongs = Songs()
-    
     
     var filtredAlbums: [Album] {
         if search == "" { return someAlbums.albums }
@@ -35,23 +32,16 @@ struct Search: View {
         }
     }
     
-    
-    
     var body: some View {
         NavigationView {
-            
             ScrollView(showsIndicators: false) {
-                
-                
-                
                 VStack(alignment: .leading, spacing: 18) {
                     Text("Альбомы")
                         .font(.title2)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                         .padding(.leading, 10)
-                    
-                    
+
                     LazyVGrid(columns: columns , spacing: 20){
                         ForEach(filtredAlbums, id: \.self) { index in
                             
@@ -63,9 +53,7 @@ struct Search: View {
                                         .frame(width: (UIScreen.main.bounds.width - 50) / 2, height: 180)
                                         .cornerRadius(15)
                                 }
-                                
-                                
-                                
+
                                 Text(index.name)
                                     .foregroundColor(.black)
                                     .font(.caption)
@@ -78,16 +66,12 @@ struct Search: View {
                             }
                             
                         }
-                        
-                        
-                        
                     }
                     .navigationTitle("Поиск")
                     
                     .searchable(text: $search, placement: .navigationBarDrawer(displayMode: .always) ,prompt: "Найди свою музыку")
                     .padding(.bottom, 20)
-                    
-                    
+
                     Text("Песни")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -116,21 +100,14 @@ struct Search: View {
                                 Text(song.album)
                                     .font(.caption)
                                     .foregroundColor(.clear)
-                                
-                                
                             }
-                            
                         }
                     }
                     .padding(.leading, 15)
                     .padding(.bottom, 80)
-                    
                 }
-                
             }
-            
         }
-        
     }
 }
 

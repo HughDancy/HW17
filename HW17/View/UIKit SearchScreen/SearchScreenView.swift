@@ -10,14 +10,9 @@ import UIKit
 import SwiftUI
 
 struct SearchScreenView: UIViewControllerRepresentable {
-    
     func makeUIViewController(context: Context) -> UIViewController {
         return ViewController()
-        
     }
     
-    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context)
-    { // можно оставить пустым }
-        
-    }
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {}
 }

@@ -14,7 +14,6 @@ struct Album: Hashable {
 }
 
 class Albums: ObservableObject {
-    
     @Published var albums = [
        Album(artist: "Slipknot", name: "All Hope Is Gone", image: "ahig"),
        Album(artist: "Slipknot", name: "Slipknot", image: "slipknot"),
@@ -41,10 +40,9 @@ class Albums: ObservableObject {
        Album(artist: "Birdy", name: "Fire Within", image: "birdy"),
        Album(artist: "Meg Myers", name: "Take Me To The Disco", image: "meg")
     ]
-    
 }
 
- var albumIndex = Album(artist: "", name: "", image: "")
+var albumIndex = Album(artist: "", name: "", image: "")
 
 struct Song: Hashable {
     var artist: String
@@ -172,5 +170,6 @@ let placebo02 = Album(artist: "Placebo", name: "Never Let Me Go", image: "placeb
 let birdy = Album(artist: "Birdy", name: "Fire Within", image: "birdy")
 let meg =  Album(artist: "Meg Myers", name: "Take Me To The Disco", image: "meg")
 
-var someAlbums = [ahig1, slipknot, omens, architects, deathStranding, hybridTheory, manson, maybe01, maybe02, nirvana01, nirvana02, twenty01, twenty02, atl, bmth01, bthm02, bthm03, fall01, fall02, fall03, placebo, placebo02, birdy, meg]
+var someAlbums = [ahig1, slipknot, omens, architects, deathStranding, hybridTheory, manson, maybe01, maybe02, nirvana01, nirvana02, twenty01, twenty02, atl, 
+                  bmth01, bthm02, bthm03, fall01, fall02, fall03, placebo, placebo02, birdy, meg]
 

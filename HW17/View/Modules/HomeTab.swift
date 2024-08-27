@@ -19,9 +19,7 @@ struct HomeTab: View {
     
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
-            
             TabView {
-                
                 LibraryView()
                     .tabItem {
                         Image(systemName: "music.note.house.fill")
@@ -32,7 +30,7 @@ struct HomeTab: View {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
                     }
-//                SearchScreenView()
+
                 Search()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
@@ -42,10 +40,8 @@ struct HomeTab: View {
             .accentColor(.pink)
             
             Miniplayer(animation: animation, expand: $expand)
-            
         })
     }
-    
 }
 
 

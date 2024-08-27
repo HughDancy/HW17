@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 
 struct AlbumsImages: Hashable {
-    
     let image: String
 }
 
@@ -41,7 +40,6 @@ var albumImages = [
 ]
 
 struct Categories: Hashable, Identifiable {
-    
     let id = UUID()
     let category: String
     let icon: String

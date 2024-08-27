@@ -10,13 +10,11 @@ import SwiftUI
 struct Slipknot: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
-            
             GeometryReader { reader in
                 
                 ZStack {
                     Image("slipknot")
                         .resizable()
-                    //                        .frame(width: 480,  height: 500)
                         .offset(y: -reader.frame(in: .global).minY)
                         .aspectRatio(contentMode: .fill)
                         .frame(width: UIScreen.main.bounds.width, height: reader.frame(in: .global).minY + 500)
@@ -89,15 +87,11 @@ struct Slipknot: View {
                         Divider()
                             .foregroundColor(.black)
                     }
-                    
                 }
-                
                 .offset(y: -1)
             }
-            
             .ignoresSafeArea(.all)
             .background(Color("userGray").edgesIgnoringSafeArea(.all))
-            
         }
         .background(Color("userGray").edgesIgnoringSafeArea(.all))
     }

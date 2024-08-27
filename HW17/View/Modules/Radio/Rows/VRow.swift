@@ -12,9 +12,7 @@ struct Vrow: View {
     let image: String
     
     var body: some View {
-      
         HStack {
-            
             Image(image)
                 .resizable()
                 .frame(width: 150, height: 150)

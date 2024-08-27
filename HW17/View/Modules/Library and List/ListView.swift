@@ -13,8 +13,7 @@ struct ListView: View {
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
-        
-        
+
         List(selection: $multisection) {
             ForEach(categories, id: \.self) { element in
                 HStack {
@@ -23,16 +22,13 @@ struct ListView: View {
                     Text(element.category)
                 }
             } .onMove(perform: move)
-            
-            
         }
         .environment(\.editMode, Binding.constant(EditMode.active))
         .listStyle(.plain)
         .navigationTitle("Медиатека")
         .accentColor(.pink)
-        
+
         .toolbar {
-            
             Button("Готово") {
                 presentationMode.wrappedValue.dismiss()
             }
@@ -41,10 +37,8 @@ struct ListView: View {
     
     func move(from source: IndexSet, to destination: Int) {
         categories.move(fromOffsets: source, toOffset: destination)
-        
     }
 }
-
 
 struct MediaView_Previews: PreviewProvider {
     static var previews: some View {

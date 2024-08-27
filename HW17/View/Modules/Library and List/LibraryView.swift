@@ -14,15 +14,12 @@ struct LibraryView: View {
                 Text("Ищите свою музыку?")
                     .font(.title3)
                     .fontWeight(.bold)
-                
-                
                 Text("Здесь появится музыка купаленная Вами в iTunes Store музыка")
                     .padding(.horizontal, 40)
                     .lineLimit(2)
                     .multilineTextAlignment(.center)
                     .font(.callout)
                     .foregroundColor(.gray)
-                
             }
             
             .navigationTitle("Медиатека")
@@ -32,11 +29,8 @@ struct LibraryView: View {
                     Text("Править")
                         .foregroundColor(.pink)
                 }
-                
-                
             }
         }
-        
     }
 }
 

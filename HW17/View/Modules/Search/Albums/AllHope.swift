@@ -72,7 +72,6 @@ struct AllHope: View {
                     }
                     .padding(.top, 220)
                 }
-                
             }
             .frame( height: 500)
             
@@ -97,23 +96,17 @@ struct AllHope: View {
                         Divider()
                             .foregroundColor(.black)
                     }
-                    
                 }
-                
                 .offset(y: -1)
             }
             .padding(.bottom, 80)
             
             .ignoresSafeArea(.all)
             .background(Color("userGray").edgesIgnoringSafeArea(.all))
-            
         }
         .background(Color("userGray").edgesIgnoringSafeArea(.all))
     }
-    
-    
 }
-
 
 struct AllHope_Previews: PreviewProvider {
     static var previews: some View {
