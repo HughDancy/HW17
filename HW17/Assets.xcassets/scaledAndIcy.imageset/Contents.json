@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Twenty_One_Pilots_-_Scaled_And_Icy.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
