@@ -13,7 +13,7 @@ struct RadioData: Hashable {
     let title: String
 }
 
-let vRadoiData = [
+let horizontalRadioData = [
    RadioData(image: "radioH01", title: "Поп - музыка"),
    RadioData(image: "radioH02", title: "Классика рока"),
    RadioData(image: "radioH03", title: "Легкий поп"),
@@ -23,7 +23,7 @@ let vRadoiData = [
    RadioData(image: "radioH07", title: "Чилаут")
 ]
 
-let hRadioData = [
+let verticalRadioData = [
     RadioData(image: "radioV01", title: "Техно"),
     RadioData(image: "radioV02", title: "Хиты"),
     RadioData(image: "radioV03", title: "Чилаут"),

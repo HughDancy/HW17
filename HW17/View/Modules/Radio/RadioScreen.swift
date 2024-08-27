@@ -19,7 +19,8 @@ struct RadioScreen: View {
                     Text("Станции")
                         .font(.title)
                         .fontWeight(.bold)
-                        .padding()
+                        .padding(.leading, 15)
+                        .padding(.bottom, 0.5)
                     Spacer()
                 }
                 RadioVertical()

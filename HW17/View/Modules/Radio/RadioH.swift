@@ -15,7 +15,7 @@ struct RadioH: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHGrid(rows: rows) {
-                ForEach(vRadoiData, id: \.self) { radio in
+                ForEach(horizontalRadioData, id: \.self) { radio in
                     HRow(title: radio.title, image: radio.image)
                 }
             }

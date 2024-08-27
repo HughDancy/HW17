@@ -16,7 +16,6 @@ struct Vrow: View {
             Image(image)
                 .resizable()
                 .frame(width: 150, height: 150)
-                .cornerRadius(17)
             VStack (alignment: .leading) {
                 Text(title)
                     .font(.callout)

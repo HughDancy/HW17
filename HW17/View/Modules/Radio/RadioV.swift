@@ -16,7 +16,7 @@ struct RadioVertical: View {
     var body: some View {
         ScrollView() {
             LazyVGrid(columns: columns, spacing: 1) {
-                ForEach(vRadoiData, id: \.self) { radio in
+                ForEach(verticalRadioData, id: \.self) { radio in
                     Vrow(title: radio.title, image: radio.image)
                 }
             }
